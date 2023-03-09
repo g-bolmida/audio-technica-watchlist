@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  audio-technica-watcher:
+    build: .
+    volumes:
+      - ./watchlist.txt:/home/watchlist.txt
+    environment:
+      DISCORD_WEBHOOK: "<add discord webhook here>"
+    restart: always

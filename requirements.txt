@@ -1,0 +1,4 @@
+tqdm
+discordwebhook
+requests
+bs4
